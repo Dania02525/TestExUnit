@@ -1,0 +1,34 @@
+{
+  // spec output panel settings
+  "panel_settings": {
+    "encoding": "utf-8",
+    "syntax": "Packages/TestExUnit/themes/TestConsole.tmLanguage",
+    "color_scheme": "Packages/TestExUnit/themes/TestConsole.hidden-tmTheme",
+  },
+  // kiex path, if using kiex
+  "paths_kiex": "~/.kiex/elixirs/elixir-1.5.1/bin",
+  // system path, if not using kiex
+  "paths_system": "/usr/bin",
+  //whether to use kiex or not
+  "check_for_kiex": true,
+  // switch directories to skip when searching by file name
+  "ignored_directories": [".git", "deps", "_build", "priv", "config"],
+  // test root folder
+  "test_folder": "test",
+  // create spec snippet defined line by line
+  "create_spec_snippet": [
+    "RSpec.describe ${class_name} do",
+    "",
+    "end",
+  ],
+  // create spec place cursor line number
+  "create_spec_cursor_line": 2,
+  // source files extension
+  "source_file_extension": ".rb",
+  // spec files extension
+  "spec_file_extension": "_spec.rb",
+  // regexp used to determine class name once creating new spec file
+  "create_spec_class_name_regexp": "(class|module)[ ]+([a-zA-Z0-9:]*)",
+  // if there is an exact match then directly jump to that one, show dropdown otherwise
+  "switch_code_test_immediately_on_direct_match": true,
+}

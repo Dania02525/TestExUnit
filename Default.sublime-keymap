@@ -1,0 +1,10 @@
+[
+  { 
+    "keys": ["super+shift+t"],
+    "command": "test_current_file"
+  },
+  {
+    "keys": ["super+shift+r"],
+    "command": "test_current_line"
+  }
+]

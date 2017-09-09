@@ -1,0 +1,7 @@
+[
+  {
+      "id" : "testExUnit",
+      "caption" : "Run mix test on the current file",
+      "command" : "test_current_file"
+  }
+]
