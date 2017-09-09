@@ -14,21 +14,5 @@
   // switch directories to skip when searching by file name
   "ignored_directories": [".git", "deps", "_build", "priv", "config"],
   // test root folder
-  "test_folder": "test",
-  // create spec snippet defined line by line
-  "create_spec_snippet": [
-    "RSpec.describe ${class_name} do",
-    "",
-    "end",
-  ],
-  // create spec place cursor line number
-  "create_spec_cursor_line": 2,
-  // source files extension
-  "source_file_extension": ".rb",
-  // spec files extension
-  "spec_file_extension": "_spec.rb",
-  // regexp used to determine class name once creating new spec file
-  "create_spec_class_name_regexp": "(class|module)[ ]+([a-zA-Z0-9:]*)",
-  // if there is an exact match then directly jump to that one, show dropdown otherwise
-  "switch_code_test_immediately_on_direct_match": true,
+  "test_folder": "test"
 }
