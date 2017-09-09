@@ -1,10 +1,24 @@
 [
   { 
     "keys": ["super+shift+t"],
-    "command": "test_current_file"
+    "command": "test_current_file",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.elixir"
+      }
+    ]
   },
   {
     "keys": ["super+shift+r"],
-    "command": "test_current_line"
+    "command": "test_current_line",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.elixir"
+      }
+    ]
   }
 ]
